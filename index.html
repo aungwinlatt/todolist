@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+    />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="todo-box" id="todoBox">
+      <div class="top-box">
+        <h1>To Do List</h1>
+        <div class="btn-box">
+          <button class="add-btn" id="addBtn" onclick="pressBtn()">
+            <i class="fas fa-plus fa-lg"></i>
+          </button>
+        </div>
+        <div class="input-box" id="inputBox">
+          <input
+            type="text"
+            class="input-text"
+            id="inputText"
+            placeholder="Say Something...."
+          />
+        </div>
+      </div>
+      <div class="button-box">
+        <div class="output-box" id="outputBox">
+          <ul class="output-list" id="outputList"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
